@@ -4,7 +4,7 @@ async function sendPrompt() {
   output.innerHTML = "⏳ Generating recommendation...";
 
   // Replace with your n8n webhook URL
-  const webhookUrl = "https://YOUR-N8N-WEBHOOK-URL-HERE";
+  const webhookUrl = "https://jaimelee333.app.n8n.cloud/webhook/aea75698-f19c-48d8-a23e-94749d576da5/chat";
 
   try {
     const res = await fetch(webhookUrl, {
